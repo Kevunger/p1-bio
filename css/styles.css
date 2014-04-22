@@ -1,0 +1,56 @@
+/* Your Website Styles */
+body {
+	background-color: silver;
+}
+
+
+h1 {
+	font-family: 'Londrina Solid', 'cursive';
+	font-size: 60px;
+}
+
+p {
+	font-family: 'Open Sans', 'Normal 400 Italic';
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#navbar{
+	width:500px;
+	margin-left: 0;
+	margin-right: auto;
+
+}
+
+ul
+{
+	list-style-type:none;
+	margin:5px;
+	padding:5px;
+	border:0;
+	height:30px;
+}
+
+ul li{
+	float:left;
+	display:list-item;
+}
+
+ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Arial;
+	background-color:#0040FF;
+	padding:12px;
+	text-transform:uppercase;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
